@@ -1,0 +1,339 @@
+.contact {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(11, 23, 48);
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navb {
+    width: 90%;
+    height: 13vh;
+    /* background-color: rgb(19, 51, 213); */
+    display: flex;
+    align-items: center;
+
+}
+
+.address-all {
+    width: 90%;
+    /* background-color: rgb(11, 183, 140); */
+    height: auto;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.hed-get {
+    width: 90%;
+    /* background-color: rgb(13, 171, 8); */
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hed-get h1 {
+    color: white;
+    font-size: 3.5vw;
+}
+
+.hed-get div {
+    width: 100%;
+    height: 2px;
+    background-color: brown;
+}
+
+.Cont-all {
+    width: 90%;
+    /* background-color: rgb(247, 219, 9); */
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add-box {
+    width: 18vw;
+    height: auto;
+    /* background-color: aqua; */
+    margin-left: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add-box h3 {
+    color: rgb(214, 82, 78);
+    font-size: 2vw;
+}
+
+.add-box span {
+    color: rgb(232, 225, 225);
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+.addbox-atag {
+    color: rgb(209, 206, 206);
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.Social-medi {
+    /* background-color: blue; */
+    width: 13vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* .email {
+    width: 80%;
+    height: 80vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+  
+    width: 45vw;
+    height: 28vw;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.email-sec{
+    width: 40vw;
+    height: 5vw;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+
+
+
+.contain {
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+      }
+  
+  .form {
+    background-color: #15172b;
+    /* border-radius: 20px; */
+    box-sizing: border-box;
+    /* height: 600px; */
+    height: auto;
+    padding: 20px;
+    
+    width: 60%;
+  }
+  
+  .title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .input {
+    background-color: #bec0d7;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+   .textarea {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 18px;
+    height: 250%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  
+  .cut {
+    background-color: #15172b;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 76px;
+  }
+  
+  .cut-short {
+    width: 50px;
+  }
+  
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+  }
+  
+  .placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+  }
+  
+  .input:focus ~ .placeholder {
+    color: #dc2f55;
+  }
+  
+  .submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+     outline: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submit:active {
+    background-color: #06b;
+  }
+  
+
+
+
+
+
+
+
+@media only screen and (min-width:100px) and (max-width: 500px) {
+
+  .navb img{
+    /* background-color: #08d; */
+    padding-top: 20px;
+  }
+    .add-box {
+        width: auto;
+        height: auto;
+        /* background-color: aqua; */
+        /* margin-left: 15%; */
+        display: flex;
+        margin-right: 20%;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .Cont-all {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2vh;
+        /* align-items: center; */
+    }
+
+    .add-box h3 {
+        color: rgb(214, 82, 78);
+        font-size: 4vw;
+    }
+
+    .add-box span {
+        color: white;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    .addbox-atag {
+        color: white;
+        font-size: 3vw;
+        font-weight: 500;
+        text-decoration: none;
+
+    }
+
+    .Social-medi {
+        /* background-color: blue; */
+        width: 20vw;
+        height: 10vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-left: 1%;
+    }
+    .form{
+        width: 90%;
+    }
+}
